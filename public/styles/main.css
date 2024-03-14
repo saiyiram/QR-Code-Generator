@@ -1,0 +1,44 @@
+body {
+  color: white;
+  background-color: rgb(30, 116, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  border: 2px solid;
+  display: block;
+  padding: 25px;
+  text-align: center;
+  margin-top: 5%;
+}
+.child-container {
+  padding: 25px;
+}
+form input {
+  font-size: 20px;
+  margin: 5px;
+  height: 35px;
+  padding: 5px;
+}
+#url-box {
+  height: 35px;
+  color: black;
+  border: 1px solid grey;
+}
+
+#btn {
+  color: black;
+  background-color: aqua;
+  border: none;
+  transition: 0.5s;
+}
+#btn:hover {
+  font-size: 110%;
+}
+a {
+  color: white;
+}
